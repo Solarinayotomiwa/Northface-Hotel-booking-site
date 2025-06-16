@@ -41,6 +41,7 @@ import closeIcon2 from "./closeIcon_2.svg";
 import logo2 from "./logo_1.svg";
 
 
+
 export const assets = {
     logo,
     searchIcon,
@@ -180,6 +181,18 @@ export const roomsDummyData = [
         "isAvailable": true,
         "createdAt": "2025-04-10T06:24:06.285Z",
         "updatedAt": "2025-04-10T06:24:06.285Z",
+        "__v": 0
+    },
+    {
+        "_id": "67f763d8197ac559e4089b7a",
+        "hotel": hotelDummyData,
+        "roomType": "Single Bed",
+        "pricePerNight": 199,
+        "amenities": ["Free WiFi", "Room Service", "Pool Access"],
+        "images": [roomImg4, roomImg1, roomImg2, roomImg3],
+        "isAvailable": true,
+        "createdAt": "2025-04-10T06:23:20.252Z",
+        "updatedAt": "2025-04-10T06:23:20.252Z",
         "__v": 0
     },
     {
