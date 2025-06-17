@@ -4,9 +4,9 @@ import { cities } from "../assets/assets";
 import heroImage from "../../src/assets/heroImage.png"
 const Hero = () => {
   return (
-    <div className='flex flex-col items-start justify-center px-6 md:px-16 lg:px-24 xl:px-32 text-white h-screen bg-no-repeat bg-cover bg-center' style={{backgroundImage:`url(${heroImage})`}}> 
+    <div className='flex flex-col items-start justify-center px-6 text-white h-screen xl:h-[90vh] bg-no-repeat bg-cover bg-center' style={{backgroundImage:`url(${heroImage})`}}> 
     
-     <div className='z-10 max-w-[1440px] w-full mx-auto'>
+     <div className='z-10 max-w-[1440px] w-full mx-auto md:px-16 lg:px-24 xl:px-32 pb-8'>
     
      <p className='bg-[#000000]/20 px-3.5 py-1 rounded-full mt-20 border border-[#ffffff]/50 flex w-fit'>Noah's Ark is Africa's First choice</p>
      
