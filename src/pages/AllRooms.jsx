@@ -8,7 +8,7 @@ const AllRooms = () => {
   const navigate = useNavigate()
 
   return (
-    <div className='flex flex-col-reverse lg:flex-row items-start justify-between pt-28 md:pt-35 px-4 md:px-16 lg:px-24 xl:px-32'>
+    <div className='flex flex-col-reverse lg:flex-row items-start justify-between pt-28 md:pt-35 px-4 md:px-16 lg:px-24 xl:px-32 max-w-[1440px] w-full mx-auto'>
 
         {/* Left side - content */}
         <div className=''>
@@ -54,10 +54,14 @@ const AllRooms = () => {
             </div>
         </div>
 
-
         {/* Right side - filters */}
-        <div>
-
+        <div className='bg-white w-80 border border-gray-300 text-gray-600 max-lg:mb-8 min-lg:mt-16'>
+          <div>
+            <p>FILTERS</p>
+            <div>
+              <span>CLEAR</span>
+            </div>
+          </div>
         </div>
     </div>
   )
