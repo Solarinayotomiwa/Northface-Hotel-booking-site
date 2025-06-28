@@ -5,19 +5,19 @@ import { useNavigate } from 'react-router-dom'
 
 {/* Components for checkbox and radio button */}
 
-const CheckBox = ({label, selected = false, onchange =()=> {}}) => {
+const CheckBox = ({label, selected = false, onChange =()=> {}}) => {
   return (
     <label className='flex gap-3 items-center cursor-pointer mt-2 text-sm'>
-      <input type="checkbox" checked={selected} onchange={(e)=>onchange(e.target.checked, label)} />
+      <input type="checkbox" checked={selected} onChange={(e)=>onChange(e.target.checked, label)} />
       <span className='font-light select-none'>{label}</span>
     </label>
   )
 }
 
-const RadioButton = ({label, selected = false, onchange =()=> {}}) => {
+const RadioButton = ({label, selected = false, onChange =()=> {}}) => {
   return (
     <label className='flex gap-3 items-center cursor-pointer mt-2 text-sm'>
-      <input type="radio" name='sortOption' checked={selected} onchange={()=>onchange(label)} />
+      <input type="radio" name='sortOption' checked={selected} onChange={()=>onChange(label)} />
       <span className='font-light select-none'>{label}</span>
     </label>
   )
