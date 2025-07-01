@@ -64,7 +64,7 @@ const RoomDetails = () => {
             </div>
             <div>
               <span>Price</span>
-              <p>{roomsDummyData.pr}</p>
+              <p>{roomsDummyData.pricePerNight}</p>
             </div>
           </div>
     </div>
