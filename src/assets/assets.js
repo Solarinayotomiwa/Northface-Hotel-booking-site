@@ -39,6 +39,10 @@ import totalBookingIcon from "./totalBookingIcon.svg";
 import totalRevenueIcon from "./totalRevenueIcon.svg";
 import closeIcon2 from "./closeIcon_2.svg";
 import logo2 from "./logo_1.svg";
+import makeShiftMap from "./mapView.png";
+import homeFill from "./homeicon-fill.png";
+import minusIcon from "./Minus.png";
+import addIcon2 from "./add.png"
 
 
 
@@ -77,6 +81,10 @@ export const assets = {
     totalRevenueIcon,
     closeIcon2,
     logo2,
+    makeShiftMap,
+    homeFill,
+    minusIcon,
+    addIcon2
 }
 
 export const cities = [
