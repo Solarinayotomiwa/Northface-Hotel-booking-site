@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <div className='flex flex-col items-center bg-[#F4F6FF] pt-20 pb-30 gap-14'>
         <div>
-            <Title title='What Our Guests Say' subTitle='Discover why discerning travelers choose QuickStay for their luxury accommodations around the world.' />
+            <Title title='What Our Guests Say' subTitle='Discover why discerning travelers choose QuickStay for their luxury accommodations around the world.' subTitleColor='gray'/>
 
             {/* Testimonial cards */}
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-6 md:px-16 lg:px-24 xl:px-32 gap-4 mt-12 max-w-[1440px] w-full mx-auto'>

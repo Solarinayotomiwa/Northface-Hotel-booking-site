@@ -7,7 +7,7 @@ const ExclusiveOffers = () => {
     <div className='flex flex-col items-center px-6 md:px-16 lg:px-24 xl:px-32 pt-20 pb-30 max-w-[1440px] w-full mx-auto'>
         <div className='flex flex-col md:flex-row w-full justify-between items-start'>
         {/* Text group */}
-            <Title align='left' title='Exclusive Offers' subTitle='Take advantage of our limited-time offers and special packages to enhance your stay and create unforgettable memories.'/>
+            <Title align='left' title='Exclusive Offers' subTitle='Take advantage of our limited-time offers and special packages to enhance your stay and create unforgettable memories.' subTitleColor='gray'/>
 
         {/* button group */}
         <button className=' group items-center font-medium cursor-pointer text-sm text-gray-900 flex flex-row gap-2 max-md:mt-12 mt-4.5 '>

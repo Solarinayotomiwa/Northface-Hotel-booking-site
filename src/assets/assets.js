@@ -42,7 +42,8 @@ import logo2 from "./logo_1.svg";
 import makeShiftMap from "./mapView.png";
 import homeFill from "./homeicon-fill.png";
 import minusIcon from "./Minus.png";
-import addIcon2 from "./add.png"
+import addIcon2 from "./add.png";
+import logoVector from "./logoVector.png";
 
 
 
@@ -84,7 +85,8 @@ export const assets = {
     makeShiftMap,
     homeFill,
     minusIcon,
-    addIcon2
+    addIcon2,
+    logoVector,
 }
 
 export const cities = [

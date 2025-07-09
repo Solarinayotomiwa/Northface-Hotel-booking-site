@@ -11,21 +11,21 @@ const BookIcon = ()=>(
 );
 
 const Navbar = () => {
-    const navLinks = [
-        { name: 'Home', path: '/' },
-        { name: 'Hotels', path: '/rooms' },
-        { name: 'Experience', path: '/' },
-        { name: 'About', path: '/' },
-    ];
-
+    
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    
     const {openSignIn} = useClerk();
     const {user} = useUser();
     const navigate = useNavigate();
     const location = useLocation();
-
+    
+    const navLinks = [
+  { name: 'Home', path: '/' },
+  { name: 'Hotels', path: '/rooms' },
+  { name: 'Experience', path: '/' },
+  ...(user ? [{ name: 'My Bookings', path: '/my-bookings' }] : []),
+];
 
     useEffect(() => {
 

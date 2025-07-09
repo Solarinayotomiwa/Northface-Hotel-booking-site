@@ -10,7 +10,7 @@ const FeaturedDestination = () => {
   return (
     <div className='flex flex-col items-center px-6 md:px-16 lg:px-24 bg-[#F4F6FF] py-20 gap-14'>
 
-        <Title title='Discover Your Perfect Match' subTitle='Explore your dream home effortlessly with our innovative real estate solutions. We connect you to the ideal property in vibrant African cities'  />
+        <Title title='Discover Your Perfect Match' subTitle='Explore your dream home effortlessly with our innovative real estate solutions. We connect you to the ideal property in vibrant African cities' subTitleColor='gray' />
 
         <div className='flex flex-wrap items-center justify-center gap-6'>
             {roomsDummyData.slice(0,4).map((room, index)=>(
