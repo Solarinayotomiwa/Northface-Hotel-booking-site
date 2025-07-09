@@ -3,6 +3,7 @@ import Title from './Title'
 import { assets, testimonials } from '../assets/assets'
 import StarRating from './StarRating'
 const NewsLetter = () => {
+
   return (
     <div className='relative px-6 md:px-16 lg:px-24 xl:px-32 pt-15 pb-15 max-w-[1440px] w-full mx-auto'>
     <div className='flex flex-col bg-gradient-to-b from-[#4850F2] to-[#3626A7] items-center md:items-start rounded-2xl px-6 md:px-20 py-12 md:py-16 mt-20 mb-30 text-white relative overflow-hidden shadow-md'>
