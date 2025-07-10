@@ -2,6 +2,7 @@ import React from 'react'
 import Title from './Title'
 import { assets, testimonials } from '../assets/assets'
 import StarRating from './StarRating'
+import HotelRegistration from '../pages/HotelRegistration'
 const NewsLetter = () => {
 
   return (
@@ -29,6 +30,7 @@ const NewsLetter = () => {
         {/* vector */}
         <img src={assets.logoVector} alt="vector" className='max-md:hidden absolute -bottom-50 -right-30 rotate-2 size-90 -z-0' />
 
+      
 
        
     </div>
